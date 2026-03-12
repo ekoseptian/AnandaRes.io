@@ -1,0 +1,37 @@
+
+body{background-image: url(../img/body1.jpg);font-family: 'poppinsregular';}
+@font-face {font-family: 'poppinsbold';src: url(../fonts/Poppins-Bold.ttf);}
+@font-face {font-family: 'poppinsregular';src: url(../fonts/Poppins-ExtraLight.ttf);}
+@font-face {font-family: 'montserratblc';src: url(../fonts/Montserrat-Black.otf);}
+@font-face {font-family: 'montserratblc';src: url(../fonts/Montserrat-Black.otf);}
+@font-face {font-family: 'bebas';src: url(../fonts/BebasNeue.otf);}
+.light {font-weight: 300;font-family: 'roboto', sans-serif !Important;}
+.monst{font-family: 'montserrat', 'roboto', sans-serif;}
+.montblc {font-family: 'montserratblc', 'roboto', sans-serif;}
+.poppinsbold {font-family: 'poppinsbold', 'roboto', sans-serif;letter-spacing: -2px;}
+.poppinsregular {font-family: 'poppinsregular', 'roboto', sans-serif;}
+.transisi {transition: 0.3s all ease;-webkit-transition: 0.3s all ease;-o-transition: 0.3s all ease;-moz-transition: 0.3s all ease;}
+.card-content{padding-top: 10%;padding-bottom: 10%;padding-left: 8%;padding-right: 8%;}
+.bebas {font-family: 'bebas', 'roboto', sans-serif;font-size: 21px;}
+.contain{width: 100%;position: absolute;}
+.navlow{border-bottom-right-radius: 100px;border-bottom-left-radius: 100px;}
+.bg-cover {/* background-image: url(https://images.pexels.com/photos/5782/nature-flowers-vintage-plant.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */background-image: url(../img/bg.jpg);     /*  background-image: url(../img/banner.jpeg); */background-position: bottom;background-repeat: no-repeat;background-attachment: fixed;background-size: cover;height: 550px;}
+.card-photo{width: 100%;height: 225px;background-size: cover;background-position: center;transition: 0.3s all ease-in-out;-moz-transition: 0.3s all ease-in-out;-o-transition: 0.3s all ease-in-out;-webkit-transition: 0.3s all ease-in-out;}
+.card-data {margin-top: 40%;transform: scale(0);transition: 0.8s all ease-in;}
+.ig-photo:hover .card-data {animation: muncul 0.6s;transform: scale(1);}
+.ig-photo:hover .card-photo {transform: scale(1.5, 1.5);}
+.port-photo:hover .card-photo {transform: scale(1.1, 1.1);}
+.card-data {margin-top: 40%;transform: scale(0);transition: 0.8s all ease-in;}
+.ig-photo:hover .card-photo-overlay {/* height: 100%; */opacity: 1;transform: scale(1);}
+.card-photo-overlay {width: 100%;height: 100%;position: absolute;background-color: rgba(245, 0, 87, 0.7);top: 0;left: 0;opacity: 0;transform: scale(0);border-radius: 60px;transition: 0.3s all ease;-webkit-transition: 0.3s all ease;-moz-transition: 0.3s all ease;-o-transition: 0.3s all ease;}
+.black-overlay {width: 100%;height: 100%;position: absolute;background-color: rgba(0, 0, 0, 0.5);top: 0;left: 0;transition: 0.3s all ease;-webkit-transition: 0.3s all ease;-moz-transition: 0.3s all ease;-o-transition: 0.3s all ease;}
+.card>img{border-radius: 6%;}
+.bg-img2{background-image: url(../img/banner.jpeg);}
+.z-depth-12 {box-shadow: 0 0px 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);}
+.z-depth-5 {box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);}
+canvas{position:absolute;top:0;}
+.parallax-counter-v4 {z-index: 1;height: 400px;overflow: hidden;text-align: center;position: relative;background: url(../img/bg.jpg) 50% 0 fixed;}
+@media (max-width: 767px){.btn-floating {margin-top: 10px;}.material-icons{margin-left: 80px;}}
+/* custom css materialize */
+@media only screen and (min-width: 601px){
+.row .col.m10 {width: 83.3333333333%;margin-left: 50px;left: auto;right: auto;}
